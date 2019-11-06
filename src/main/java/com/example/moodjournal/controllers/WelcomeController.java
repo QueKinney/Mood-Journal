@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class WelcomeController {
 
-    @RequestMapping(value="")
+    @RequestMapping(value="/index")
     @ResponseBody
     public String index(){
         return "Welcome to Mood Journal";
